@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>media_query</title>
+   
+    <style type="text/css">
+        #toparea{
+            height: 200px;
+            background: thistle;
+            width: 1200px;
+        }
+        #logoarea{
+            width: 200px;
+            height: 200px;
+            background: red;
+            float: left;
+        }
+        #titlearea{
+            width: 1000px;
+            height: 200px;
+            background: teal;
+            float: left;
+        }
+        @media screen and (max-width:1000px) {
+            #toparea,#logoarea,#titlearea{
+                width: 100%;
+            }
+        }
+    </style>
+     </head>
+    <body>
+        <div id="toparea">
+            <div id="logoarea"></div>
+            <div id="titlearea"></div>
+        </div>
+    </body>
+</html>
